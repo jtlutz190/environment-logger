@@ -29,3 +29,4 @@ The BMP280 was successfully brought up over the I²C bus.
 
  ## Concepts Learned and Used
  * Learned to verify I²C communication using bus scanning before using sensors.
+ * Designed and documented an entire ESP32-sensor wiring schematic using Fritzing.
