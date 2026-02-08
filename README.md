@@ -1,6 +1,8 @@
 # environment-logger
 This project implements an ESP-32 based environmental data logger using a BMP280 for temperature and pressure sensors over I²C. The system uses real-time data acquisition and streams measurements over serial for later time-series and data visualization in Python.
 
+## Goal
+Implement an end-to-end environmental data logging system that collects temperature and pressure data using a BMP280 + ESP32, streams it to a machine, and executes Python-based time-series analysis to visualize trends, compute statistics, and detect anomalies.
 ## Hardware Used:
 * ESP32 Dev Board
 * BMP280 Sensor breakout
