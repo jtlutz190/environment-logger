@@ -12,7 +12,7 @@ void setup() {
 
   Serial.println("Starting BMP280 init...");
 
-  if (!bmp.begin(0x76)) {  // your scanner found 0x76
+  if (!bmp.begin(0x76)) {  
     Serial.println("Error: BMP280 not found at 0x76");
     while (1) delay(10);
   }
@@ -21,7 +21,7 @@ void setup() {
 }
 
 void loop() {
-  float t = bmp.readTemperature() * 9/5 + 32;
+  float t = bmp.readTemperature() * 9/5 + 32; //F
   float p = bmp.readPressure() / 100.0f; // hPa
 
   Serial.print("T=");
